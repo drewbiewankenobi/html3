@@ -1,0 +1,129 @@
+/*This looks like really good CSS by Drew*/
+
+body {
+	background-color: papayawhip;
+	margin:0;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0.4));
+    background: -webkit-linear-gradient(bottom, rgba(255,218,185,.7), rgba(255,239,213,.2));
+}
+img{
+	max-width: 50%;
+}
+.header {
+	text-align: center;
+	font-family: Georgia;
+	display: block;
+	margin-top: 100px;
+}
+
+.maxwidth {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+ul {
+	   list-style-type: none;
+}
+
+.navmaster {
+    top:0;
+    left:0;
+    right:0;
+    margin:auto;
+    padding: 10px;
+    background-color: papayawhip;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0.4));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,.7), rgba(255,239,213,.2));
+}
+
+.navmaster li {
+    border-right: 1px solid white;
+    display: inline-block;
+}
+
+.navmaster li:last-child {
+	border-right: hidden;
+}
+
+.navmaster li a {
+    display: inline;
+    color: white;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.navmaster li a:hover {
+    background-color: gray;
+    transition: 1s ease;
+}
+.centy {
+	display: block;
+	margin:auto;
+}
+
+.centerizer {
+	margin: auto;
+	text-align: center;
+
+}
+.centerizer li{
+	display: inline;
+}
+
+@media (max-width: 960px) {
+	body {
+		padding: 20px;
+	}
+
+}
+
+@media (max-width: 400px) {
+	.navmaster {
+	
+	}
+}
+
+@media (max-width: 400px) {
+	.navmaster a {
+		
+    	
+	}
+}
+
+@media (max-width: 400px) {
+	.navmaster li a {
+		/*background-color: papayawhip;
+    	width: 100%;*/
+    	text-align: center;
+    	padding: 30px 120px;
+    	font-size: 14px;
+    	/*background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0.4));
+    	background: -webkit-linear-gradient(bottom, rgba(0,0,0,.7), rgba(255,239,213,.2));*/
+    }
+}
+
+
+@media (max-width: 400px) {
+	.navmaster li {
+		border-bottom: 1px solid white;
+		border-right: hidden;
+		display: block;
+		width:100%
+	}
+}
+
+@media (max-width: 400px) {
+	.navmaster li:last-child {
+		border-right: hidden;
+		border-bottom: hidden;
+	}
+	.centerizer li {
+		display: block;
+		padding-bottom: 5px;
+	}
+}
